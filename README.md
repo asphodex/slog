@@ -6,7 +6,7 @@ Slog (simple logger) is a primitive logger that I use in my student lab work. It
 
 Just call `Slog::<info, warn, error>(<message>)`. 
 Logger messages can be supplemented with `Slog::opt(<key>, <val>)` 
-and `<val>` It can be a container that implements the `begin()` and 
+and `<val>` can be a container that implements the `begin()` and 
 `end()` methods using iterators and `std::map`. 
 
 ### Example
